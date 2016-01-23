@@ -3,6 +3,9 @@ body {
   background: url("../images/bee.jpg") center 30% no-repeat;
   background-size: cover; }
 
+header {
+  background-color: #1976D2 !important; }
+
 section {
   position: relative;
   height: auto;
