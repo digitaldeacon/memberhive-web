@@ -1,11 +1,9 @@
-body {
-  background-color: #f3f3f3;
-  background: url("../images/bee.jpg") center 30% no-repeat;
-  background-size: cover; }
-
+/* line 5, ../sass/style.scss */
 header {
-  background-color: #1976D2 !important; }
+  background-color: #1976d2 !important;
+}
 
+/* line 9, ../sass/style.scss */
 section {
   position: relative;
   height: auto;
@@ -13,29 +11,56 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+}
 
-h1 {
+/* line 22, ../sass/style.scss */
+.slogan {
+  background-color: #f3f3f3;
+  background: url("../images/bee.jpg") center 30% no-repeat;
+  background-size: cover;
+  padding-bottom: 2em;
+}
+/* line 27, ../sass/style.scss */
+.slogan h1 {
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.55);
   padding-top: 100px;
   font-size: 65px;
-  font-weight: bold; }
-
-h2 {
+  font-weight: bold;
+}
+/* line 35, ../sass/style.scss */
+.slogan h2 {
   color: #e6e6e6;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
-  font-size: 21px; }
+  font-size: 21px;
+}
+/* line 42, ../sass/style.scss */
+.slogan .slogan-cards .slogan-card {
+  margin: 15px;
+}
+/* line 43, ../sass/style.scss */
+.slogan .slogan-cards .slogan-card i {
+  font-size: 50px;
+  margin-top: 15px;
+  color: #2196f3;
+}
+/* line 48, ../sass/style.scss */
+.slogan .slogan-cards .slogan-card div {
+  font-size: 16px;
+}
 
-.slogan .slogan-cards {
-  display: flex;
-  flex-direction: row; }
-  .slogan .slogan-cards .slogan-card {
-    margin: 10px; }
-    .slogan .slogan-cards .slogan-card i {
-      font-size: 50px;
-      margin-top: 15px; }
-    .slogan .slogan-cards .slogan-card div {
-      font-size: 16px; }
+/* line 57, ../sass/style.scss */
+section.pricing li {
+  font-size: 20px;
+}
+/* line 59, ../sass/style.scss */
+section.pricing li i {
+  color: #2196f3;
+}
 
-/*# sourceMappingURL=style.css.map */
+/* line 67, ../sass/style.scss */
+section.secure {
+  background-color: #37474f;
+  color: white;
+}
