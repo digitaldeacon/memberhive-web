@@ -8,6 +8,7 @@
 
   <title>Memberhive - Verwaltung für Gemeinden</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdn.materialdesignicons.com/1.4.57/css/materialdesignicons.min.css">
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
@@ -18,7 +19,7 @@
 </head>
 
 <body class="mdl-layout mdl-js-layout">
-  <nav class="light-blue lighten-1" role="navigation">
+  <nav class="blue darken-4" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">
           <img src="images/logo-d.png" alt="MemberHive"/>
@@ -42,121 +43,100 @@
     </div>
   </nav>
 
-  <header class="mdl-layout__header ">
-    <div class="mdl-layout__header-row">
-      <!-- Title -->
-      <a href="#top" class="mdl-layout-title">
-        <img src="images/logo-d.png" alt="MemberHive"/>
-      </a>
-      <!-- Add spacer, to align navigation to the right -->
-      <div class="mdl-layout-spacer"></div>
-      <!-- Navigation -->
-      <nav class="mdl-navigation">
-        <a class="mdl-navigation__link" href="#functions">Funktionalität</a>
-        <a class="mdl-navigation__link" href="#prices">Preise</a>
-        <a class="mdl-navigation__link" href="#demo">Demo</a>
-        <a class="mdl-navigation__link" href="#contact">Kontakt</a>
-      </nav>
-    </div>
-  </header>
-
- <div class="section no-pad-bot" id="index-banner">
+  <div class="section no-pad-bot slogan" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">Starter Template</h1>
+      <h1 class="header center orange-text">Verwaltung einfach gemacht</h1>
       <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <h5 class="header col s12 light">MemberHive hilft der Gemeinde in vielen Aufgaben</h5>
       </div>
       <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
-      </div>
-      <br><br>
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-content">
+                      <i class="mdi mdi-account big-icon"></i>
+                      <p class="card-title">Bei der Mitgliederverwaltung</p>
+                      <div class="card-action activator">
+                          Mehr über die Mitgliederverwaltung erfahren
+                      </div>
+                  </div>
+                  <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Mitglieder<i class="material-icons right">close</i></span>
 
+                      <p>Die Mitgliederverwaltung ist ein Grundbestandteil und ist oft sehr kompliziert.
+
+                      MemberHive erfüllt die Wünsche von Gemeindepastoren, indem es extra für sie entwickelt wurde.</p>
+                      <ul>
+                          <li>Persönliche Daten von Mitglieder pflegen</li>
+                          <li>Gemeindeliste erstellen</li>
+                          <li>Einfache Suche</li>
+                      </ul>
+                  </div>
+              </div>
+           </div>
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-content">
+                      <i class="mdi mdi-calendar big-icon"></i>
+                      <p class="card-title">Bei der Planung von Gemeindeaktivitäten</p>
+                     <div class="card-action activator">
+                          Mehr über die Plaung erfahren
+                     </div>
+                  </div>
+                 <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Planung<i class="material-icons right">close</i></span>
+                  </div>
+
+              </div>
+          </div>
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-content">
+                      <i class="mdi mdi-comment-text big-icon"></i>
+                      <p class="card-title">Schreiben und Teilen von Notizen</p>
+                      <div class="card-action activator">
+                          Mehr über Notizen erfahren
+                      </div>
+                  </div>
+                 <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Notizen<i class="material-icons right">close</i></span>
+                  </div>
+
+
+              </div>
+          </div>
+       </div>
+       <div class="row center">
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-content">
+                      <i class="mdi mdi-account-switch big-icon"></i>
+                      <p class="card-title">Bei der Kommunikation</p>
+                      <p class="wip">Kommt in Juni 2016</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-content">
+                      <i class="mdi mdi-file-export big-icon"></i>
+                      <p class="card-title">Einfacher Import &amp; Export</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col s12 m4">
+              <div class="card">
+                  <div class="card-content">
+                      <i class="mdi mdi-microphone big-icon"></i>
+                      <p class="card-title">Beim Verwaltung der Predigtendownloads</p>
+                      <p class="wip">Kommt in Herbst 2016</p>
+                  </div>
+              </div>
+          </div>
+      </div>
     </div>
   </div>
 
-  <main class="mdl-layout__content">
-    <div class="page-content">
-      <section id="top" class="slogan mdl-typography--text-center">
-        <h1> Verwaltung einfach gemacht </h1>
-        <h2> MemberHive hilft in allen Aufgaben </h2>
-
-        <div id="functions" class="slogan-cards mdl-grid">
-
-          <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone ">
-            <div class="slogan-card mdl-card mdl-shadow--2dp">
-              <i class="mdi mdi-account"></i>
-              <div class="mdl-card__supporting-text">Bei der Mitgliederverwaltung</div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Mehr über Mitgliederverwaltung erfahren
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone ">
-            <div class="slogan-card mdl-card mdl-shadow--2dp">
-              <i class="mdi mdi-calendar"></i>
-              <div class="mdl-card__supporting-text">Bei der Planung von Gemeindeaktivitäten</div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Mehr über Planung erfahren
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--12-col-phone ">
-            <div class="slogan-card mdl-card mdl-shadow--2dp">
-              <i class="mdi mdi-comment-text"></i>
-              <div class="mdl-card__supporting-text">Schreiben und Teilen von Notizen</div>
-              <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Mehr über Notizen erfahren
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="slogan-cards mdl-grid">
-          <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone ">
-            <div class="slogan-card mdl-card mdl-shadow--2dp">
-              <i class="mdi mdi-account-switch"></i>
-              <div class="mdl-card__supporting-text">Kommunikation innerhalb der Gruppen</div>
-                <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Mehr über Gruppen erfahren
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-            <div class="slogan-card mdl-card mdl-shadow--2dp">
-              <i class="mdi mdi-file-export"></i>
-              <div class="mdl-card__supporting-text">Einfacher Import &amp; Export</div>
-                <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Mehr über Import erfahren
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-            <div class="slogan-card mdl-card mdl-shadow--2dp">
-              <i class="mdi mdi-microphone"></i>
-              <div class="mdl-card__supporting-text">Verwaltung der Predigtendownloads</div>
-                <div class="mdl-card__actions mdl-card--border">
-                <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-                  Mehr über Predigten erfahren
-                </a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
 
       <section class="pricing">
         <h1 class="mdl-typography--font-light mdl-typography--display-1-color-contrast">Ein guter Preis</h1>
@@ -256,6 +236,15 @@
           Ihre Daten sind wichtig. Wir sorgen uns um sie.
         </p>
       </section>
+    <section class="section no-pad-bot">
+        <div class="container">
+            <br><br>
+            <h1 class="header center blue-text">Probieren sie es aus</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">MemberHive hilft der Gemeinde in vielen Aufgaben</h5>
+            </div>
+        </div>
+    </section>
 
       <section>
         <h1 id="contact">Kontakt</h1>
