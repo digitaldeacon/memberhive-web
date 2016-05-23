@@ -42,7 +42,22 @@ section.pricing li i {
 }
 
 /* line 47, ../sass/style.scss */
+.thin-font {
+  font-weight: 200;
+}
+
+/* line 51, ../sass/style.scss */
 section.secure {
   background-color: #37474f;
   color: white;
+}
+
+/* line 55, ../sass/style.scss */
+section.contact {
+  background-color: #E8EAF6;
+}
+
+/* line 59, ../sass/style.scss */
+section.register {
+  background-color: #FFF3E0;
 }
