@@ -9,14 +9,19 @@ section {
   justify-content: center;
 }
 
-/* line 15, ../sass/style.scss */
+/* line 14, ../sass/style.scss */
+.brand-logo {
+  margin-top: 5px;
+}
+
+/* line 17, ../sass/style.scss */
 .slogan {
   background-color: #f3f3f3;
   background: url("../images/bee.jpg") center 30% no-repeat;
   background-size: cover;
   padding-bottom: 2em;
 }
-/* line 21, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 .slogan h1 {
   color: white;
   text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.55);
@@ -24,41 +29,52 @@ section {
   font-size: 65px;
   font-weight: bold;
 }
-/* line 29, ../sass/style.scss */
+/* line 31, ../sass/style.scss */
 .slogan h5 {
   color: #e6e6e6;
   text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.45);
   font-size: 21px;
   font-weight: bold;
 }
-/* line 37, ../sass/style.scss */
+/* line 39, ../sass/style.scss */
 .slogan i.big-icon {
   font-size: 50px;
   margin-top: 15px;
 }
-
 /* line 46, ../sass/style.scss */
+.slogan ul li {
+  text-align: left;
+  list-style-type: disc;
+  list-style-position: inside;
+  list-style-image: none;
+}
+/* line 53, ../sass/style.scss */
+.slogan .card {
+  height: 250px;
+}
+
+/* line 59, ../sass/style.scss */
 section.pricing p {
   font-size: 20px;
 }
 
-/* line 53, ../sass/style.scss */
+/* line 66, ../sass/style.scss */
 .thin-font {
   font-weight: 200;
 }
 
-/* line 57, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 section.secure {
   background-color: #37474f;
   color: white;
 }
 
-/* line 61, ../sass/style.scss */
+/* line 74, ../sass/style.scss */
 section.contact {
   background-color: #E8EAF6;
 }
 
-/* line 65, ../sass/style.scss */
+/* line 78, ../sass/style.scss */
 section.register {
   background-color: #FFF3E0;
 }

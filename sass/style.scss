@@ -11,7 +11,9 @@ section {
   align-items: center;
   justify-content: center;
 }
-
+.brand-logo {
+  margin-top: 5px;
+}
 .slogan {
   background-color: #f3f3f3;
   background: url('../images/bee.jpg') center 30% no-repeat;
@@ -39,6 +41,17 @@ section {
       margin-top: 15px;
     }
   .wip {
+  }
+  
+  ul li {
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: none;
+  }
+  
+  .card {
+    height: 250px;
   }
 }
 
